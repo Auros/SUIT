@@ -1,0 +1,21 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AuthorizationSettings": {
+    "SteamKey": "",
+    "DiscordToken": ""
+  },
+  "DeploymentSettings": {
+    "CORS": [
+      "https://donate.auros.dev",
+      "https://suit.auros.dev",
+      "https://auros.dev"
+    ]
+  },
+  "AllowedHosts": "*"
+}
