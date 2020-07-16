@@ -28,6 +28,7 @@ namespace SUIT
 
             services.AddSingleton<HttpClient>();
             services.AddSingleton<SteamService>();
+            services.AddSingleton<TwitchService>();
             services.AddSingleton<DiscordService>();
 
             services.AddCors(options =>
